@@ -1,0 +1,42 @@
+body{
+    background-color:rgb(255, 205, 6);
+    text-align: center;
+}
+#skbtn{
+   margin-left: 1400px;
+  
+}
+h1{
+  font-weight: bold;  }  
+
+.line{
+width:1000px;
+    border: none;
+    height: 7px;
+    background:#ff6200;
+
+}
+#label{
+    font-size: x-large;
+
+}
+#confidance{
+    font-size: x-large;
+}
+canvas{
+    border:5px solid white;
+    border-radius: 20px;
+    animation-name:example;
+    animation-duration:2s;
+    margin-top:50px;
+    animation-iteration-count: infinite;
+}
+@keyframes example{
+from {box-shadow:1px 1px 38px rgb(255, 255, 255);}
+to{box-shadow: 1px 1px 38px rgb(8, 255, 251);}
+
+}
+p{
+    padding-top: 10px;
+    font-size: 25px;
+}
